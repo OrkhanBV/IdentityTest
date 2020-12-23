@@ -124,3 +124,4 @@
 /home/orhan/Desktop/IdentityTest/Users/obj/Debug/netcoreapp3.1/Users.dll
 /home/orhan/Desktop/IdentityTest/Users/obj/Debug/netcoreapp3.1/Users.pdb
 /home/orhan/Desktop/IdentityTest/Users/obj/Debug/netcoreapp3.1/Users.genruntimeconfig.cache
+/home/orhan/Desktop/IdentityTest/Users/obj/Debug/netcoreapp3.1/Razor/Views/Account/Login.cshtml.g.cs

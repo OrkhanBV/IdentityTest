@@ -32,6 +32,7 @@
     <e p="$PROJECT_DIR$" t="IncludeFlat">
       <e p="Users" t="IncludeRecursive">
         <e p="Controllers" t="Include">
+          <e p="AccountController.cs" t="Include" />
           <e p="AdminController.cs" t="Include" />
           <e p="HomeController.cs" t="Include" />
         </e>
@@ -52,6 +53,9 @@
         <e p="Startup.cs" t="Include" />
         <e p="Users.csproj" t="IncludeRecursive" />
         <e p="Views" t="Include">
+          <e p="Account" t="Include">
+            <e p="Login.cshtml" t="Include" />
+          </e>
           <e p="Admin" t="Include">
             <e p="Create.cshtml" t="Include" />
             <e p="Edit.cshtml" t="Include" />
