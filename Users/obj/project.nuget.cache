@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "f/FdpKbfxPRkbBREPiLUCmIEeuOHOK4PsKMVKfg2voQn7z6dY9T1HkJZZmeRmYdPFeQ6PvluI9lZAgsDhbvMGg==",
+  "dgSpecHash": "9egiHsKSlsTaIldcBc37MTaxzzGvrXXomR4ooIo1oXsKUV1feJZ2hxwndj7O7vh+Xvdpk/BvGQmEYf2zCalsew==",
   "success": true,
-  "projectFilePath": "/home/orhan/Desktop/Users/Users/Users.csproj",
+  "projectFilePath": "/home/orhan/Desktop/IdentityTest/Users/Users.csproj",
   "expectedPackageFiles": [
     "/home/orhan/.nuget/packages/bootstrap/4.5.3/bootstrap.4.5.3.nupkg.sha512",
     "/home/orhan/.nuget/packages/humanizer.core/2.8.26/humanizer.core.2.8.26.nupkg.sha512",

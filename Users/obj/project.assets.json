@@ -5755,11 +5755,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/home/orhan/Desktop/Users/Users/Users.csproj",
+      "projectUniqueName": "/home/orhan/Desktop/IdentityTest/Users/Users.csproj",
       "projectName": "Users",
-      "projectPath": "/home/orhan/Desktop/Users/Users/Users.csproj",
+      "projectPath": "/home/orhan/Desktop/IdentityTest/Users/Users.csproj",
       "packagesPath": "/home/orhan/.nuget/packages/",
-      "outputPath": "/home/orhan/Desktop/Users/Users/obj/",
+      "outputPath": "/home/orhan/Desktop/IdentityTest/Users/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/home/orhan/.nuget/NuGet/NuGet.Config"

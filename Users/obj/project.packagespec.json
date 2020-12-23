@@ -1,10 +1,10 @@
 ﻿{
   "version": "1.0.0",
   "restore": {
-    "projectUniqueName": "/home/orhan/Desktop/Users/Users/Users.csproj",
+    "projectUniqueName": "/home/orhan/Desktop/IdentityTest/Users/Users.csproj",
     "projectName": "Users",
-    "projectPath": "/home/orhan/Desktop/Users/Users/Users.csproj",
-    "outputPath": "/home/orhan/Desktop/Users/Users/obj/",
+    "projectPath": "/home/orhan/Desktop/IdentityTest/Users/Users.csproj",
+    "outputPath": "/home/orhan/Desktop/IdentityTest/Users/obj/",
     "projectStyle": "PackageReference",
     "originalTargetFrameworks": [
       "netcoreapp3.1"
