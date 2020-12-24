@@ -125,3 +125,5 @@
 /home/orhan/Desktop/IdentityTest/Users/obj/Debug/netcoreapp3.1/Users.pdb
 /home/orhan/Desktop/IdentityTest/Users/obj/Debug/netcoreapp3.1/Users.genruntimeconfig.cache
 /home/orhan/Desktop/IdentityTest/Users/obj/Debug/netcoreapp3.1/Razor/Views/Account/Login.cshtml.g.cs
+/home/orhan/Desktop/IdentityTest/Users/obj/Debug/netcoreapp3.1/Razor/Views/RoleAdmin/Create.cshtml.g.cs
+/home/orhan/Desktop/IdentityTest/Users/obj/Debug/netcoreapp3.1/Razor/Views/RoleAdmin/Index.cshtml.g.cs

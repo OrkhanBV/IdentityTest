@@ -35,6 +35,7 @@
           <e p="AccountController.cs" t="Include" />
           <e p="AdminController.cs" t="Include" />
           <e p="HomeController.cs" t="Include" />
+          <e p="RoleAdminController.cs" t="Include" />
         </e>
         <e p="Migrations" t="Include">
           <e p="20201222055449_Initial.Designer.cs" t="Include" />
@@ -62,6 +63,10 @@
             <e p="Index.cshtml" t="Include" />
           </e>
           <e p="Home" t="Include">
+            <e p="Index.cshtml" t="Include" />
+          </e>
+          <e p="RoleAdmin" t="Include">
+            <e p="Create.cshtml" t="Include" />
             <e p="Index.cshtml" t="Include" />
           </e>
           <e p="Shared" t="Include">

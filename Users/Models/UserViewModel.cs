@@ -1,4 +1,6 @@
+using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
+using Microsoft.AspNetCore.Identity;
 
 namespace Users.Models
 {
@@ -20,6 +22,22 @@ namespace Users.Models
         [Required]
         [UIHint("password")]
         public string Password { get; set; }
+    }
+
+    public class RoleEditModel
+    {
+        public IdentityRole Role { get; set; }
+        public IEnumerable<AppUser> Members { get; set; }
+        public IEnumerable<AppUser> NonMembers { get; set; }
+    }
+
+    public class RoleModificationModel
+    {
+        [Required]
+        public string RoleName { get; set; }
+        public string RoleId { get; set; }
+        public string[] TdsToAdd { get; set; }
+        public string[] IdsToDelete { get; set; }
     }
 }
 

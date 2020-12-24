@@ -23,9 +23,24 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a41bee66-7bc3-4666-8483-6ba3210a6417" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Users/Views/Account/Login.cshtml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Users/Controllers/AccountController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Users/Controllers/AccountController.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Users/Views/Login/Login.cshtml" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/Users/Controllers/RoleAdminController.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Users/Views/RoleAdmin/Create.cshtml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Users/Views/RoleAdmin/Index.cshtml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Users/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Users/.idea/contentModel.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Users/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Users/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Users/Models/UserViewModel.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Users/Models/UserViewModel.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Users/Startup.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Users/Startup.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Users/bin/Debug/netcoreapp3.1/Users.Views.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Users/bin/Debug/netcoreapp3.1/Users.Views.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Users/bin/Debug/netcoreapp3.1/Users.Views.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Users/bin/Debug/netcoreapp3.1/Users.Views.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Users/bin/Debug/netcoreapp3.1/Users.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Users/bin/Debug/netcoreapp3.1/Users.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Users/bin/Debug/netcoreapp3.1/Users.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Users/bin/Debug/netcoreapp3.1/Users.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Users/obj/Debug/netcoreapp3.1/Users.RazorCoreGenerate.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Users/obj/Debug/netcoreapp3.1/Users.RazorCoreGenerate.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Users/obj/Debug/netcoreapp3.1/Users.Views.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Users/obj/Debug/netcoreapp3.1/Users.Views.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Users/obj/Debug/netcoreapp3.1/Users.Views.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Users/obj/Debug/netcoreapp3.1/Users.Views.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Users/obj/Debug/netcoreapp3.1/Users.csproj.CoreCompileInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Users/obj/Debug/netcoreapp3.1/Users.csproj.CoreCompileInputs.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Users/obj/Debug/netcoreapp3.1/Users.csproj.FileListAbsolute.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Users/obj/Debug/netcoreapp3.1/Users.csproj.FileListAbsolute.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Users/obj/Debug/netcoreapp3.1/Users.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Users/obj/Debug/netcoreapp3.1/Users.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Users/obj/Debug/netcoreapp3.1/Users.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Users/obj/Debug/netcoreapp3.1/Users.pdb" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -40,9 +55,13 @@
       <list>
         <option value="$PROJECT_DIR$/Users/Controllers/HomeController.cs" />
         <option value="$PROJECT_DIR$/Users/Views/Login/Login.cshtml" />
-        <option value="$PROJECT_DIR$/Users/Models/UserViewModel.cs" />
         <option value="$PROJECT_DIR$/Users/Pages/Account/Login.cshtml" />
         <option value="$PROJECT_DIR$/Users/Controllers/AccountController.cs" />
+        <option value="$PROJECT_DIR$/Users/Startup.cs" />
+        <option value="$PROJECT_DIR$/Users/Controllers/RoleAdminController.cs" />
+        <option value="$PROJECT_DIR$/Users/Views/RoleAdmin/Index.cshtml" />
+        <option value="$PROJECT_DIR$/Users/Views/RoleAdmin/Create.cshtml" />
+        <option value="$PROJECT_DIR$/Users/Models/UserViewModel.cs" />
       </list>
     </option>
   </component>
@@ -97,14 +116,16 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1608724640774</updated>
-      <workItem from="1608724662067" duration="6007000" />
+      <workItem from="1608724662067" duration="6959000" />
+      <workItem from="1608752187654" duration="1635000" />
+      <workItem from="1608790981945" duration="4950000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
-  <component name="UnityProjectConfiguration" hasMinimizedUI="null" />
+  <component name="UnityProjectConfiguration" hasMinimizedUI="false" />
   <component name="UnityUnitTestConfiguration" currentTestLauncher="NUnit" />
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
@@ -116,27 +137,28 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state width="1238" height="270" key="GridCell.Tab.0.bottom" timestamp="1608734632002">
+    <state width="1324" height="175" key="GridCell.Tab.0.bottom" timestamp="1608795892188">
       <screen x="0" y="0" width="1366" height="737" />
     </state>
-    <state width="1238" height="270" key="GridCell.Tab.0.bottom/0.0.1366.737/1366.0.1280.1024@0.0.1366.737" timestamp="1608734632002" />
-    <state width="1238" height="270" key="GridCell.Tab.0.center" timestamp="1608734632002">
+    <state width="1324" height="175" key="GridCell.Tab.0.bottom/0.0.1366.737/1366.0.1280.1024@0.0.1366.737" timestamp="1608795892188" />
+    <state width="1324" height="175" key="GridCell.Tab.0.center" timestamp="1608795892188">
       <screen x="0" y="0" width="1366" height="737" />
     </state>
-    <state width="1238" height="270" key="GridCell.Tab.0.center/0.0.1366.737/1366.0.1280.1024@0.0.1366.737" timestamp="1608734632002" />
-    <state width="1238" height="270" key="GridCell.Tab.0.left" timestamp="1608734632001">
+    <state width="1324" height="175" key="GridCell.Tab.0.center/0.0.1366.737/1366.0.1280.1024@0.0.1366.737" timestamp="1608795892188" />
+    <state width="1324" height="175" key="GridCell.Tab.0.left" timestamp="1608795892188">
       <screen x="0" y="0" width="1366" height="737" />
     </state>
-    <state width="1238" height="270" key="GridCell.Tab.0.left/0.0.1366.737/1366.0.1280.1024@0.0.1366.737" timestamp="1608734632001" />
-    <state width="1238" height="270" key="GridCell.Tab.0.right" timestamp="1608734632002">
+    <state width="1324" height="175" key="GridCell.Tab.0.left/0.0.1366.737/1366.0.1280.1024@0.0.1366.737" timestamp="1608795892188" />
+    <state width="1324" height="175" key="GridCell.Tab.0.right" timestamp="1608795892188">
       <screen x="0" y="0" width="1366" height="737" />
     </state>
-    <state width="1238" height="270" key="GridCell.Tab.0.right/0.0.1366.737/1366.0.1280.1024@0.0.1366.737" timestamp="1608734632002" />
+    <state width="1324" height="175" key="GridCell.Tab.0.right/0.0.1366.737/1366.0.1280.1024@0.0.1366.737" timestamp="1608795892188" />
     <state x="1466" y="100" width="1080" height="824" key="VCS.FileHistoryDialog" timestamp="1608737127360">
       <screen x="1366" y="0" width="1280" height="1024" />
     </state>
