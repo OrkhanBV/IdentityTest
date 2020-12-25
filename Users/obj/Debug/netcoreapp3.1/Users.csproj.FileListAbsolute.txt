@@ -127,3 +127,4 @@
 /home/orhan/Desktop/IdentityTest/Users/obj/Debug/netcoreapp3.1/Razor/Views/Account/Login.cshtml.g.cs
 /home/orhan/Desktop/IdentityTest/Users/obj/Debug/netcoreapp3.1/Razor/Views/RoleAdmin/Create.cshtml.g.cs
 /home/orhan/Desktop/IdentityTest/Users/obj/Debug/netcoreapp3.1/Razor/Views/RoleAdmin/Index.cshtml.g.cs
+/home/orhan/Desktop/IdentityTest/Users/obj/Debug/netcoreapp3.1/Razor/Views/RoleAdmin/Edit.cshtml.g.cs

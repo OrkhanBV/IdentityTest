@@ -85,3 +85,7 @@ namespace Users
   * объеденить проекты вместе, убедивгись что не сломаю основной проект
   * при объеденинии проектов буду использовать паттерн "Репозиторий"
   */
+  
+//Решение проблемы!!!!
+  //https://github.com/PomeloFoundation/Pomelo.EntityFrameworkCore.MySql/issues/1041
+  //

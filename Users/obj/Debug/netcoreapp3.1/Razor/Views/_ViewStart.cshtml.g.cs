@@ -20,6 +20,13 @@ using Users.Models;
 #line hidden
 #nullable disable
 #nullable restore
+#line 3 "/home/orhan/Desktop/IdentityTest/Users/Views/_ViewImports.cshtml"
+using Microsoft.AspNetCore.Identity;
+
+#line default
+#line hidden
+#nullable disable
+#nullable restore
 #line 1 "/home/orhan/Desktop/IdentityTest/Users/Views/_ViewStart.cshtml"
 using Users;
 
@@ -27,7 +34,7 @@ using Users;
 #line hidden
 #nullable disable
     [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"3d31a297027f44518f25f191030ac34b64de9ded", @"/Views/_ViewStart.cshtml")]
-    [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"3350c559ecba8adbd823deffa5b486ad3398cf05", @"/Views/_ViewImports.cshtml")]
+    [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"9c2a9bcf8ccc36203e00c7cdf630954008b77828", @"/Views/_ViewImports.cshtml")]
     public class Views__ViewStart : global::Microsoft.AspNetCore.Mvc.Razor.RazorPage<dynamic>
     {
         #pragma warning disable 1998

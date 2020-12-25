@@ -24,9 +24,19 @@ namespace Users.Models
         public string Password { get; set; }
     }
 
+    
+    /*
+     * Класс RoleEditModel представляет роль и детали о пользователях в системе,
+     * категоризированные по членству в роли. Класс RoleModificationModel представляет
+     * набор изменений роли.
+     */
+    
+    
     public class RoleEditModel
     {
         public IdentityRole Role { get; set; }
+        /*public AppUser Members { get; set; }
+        public AppUser NonMembers { get; set; }*/
         public IEnumerable<AppUser> Members { get; set; }
         public IEnumerable<AppUser> NonMembers { get; set; }
     }
@@ -36,7 +46,7 @@ namespace Users.Models
         [Required]
         public string RoleName { get; set; }
         public string RoleId { get; set; }
-        public string[] TdsToAdd { get; set; }
+        public string[] IdsToAdd { get; set; }
         public string[] IdsToDelete { get; set; }
     }
 }
